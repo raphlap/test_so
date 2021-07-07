@@ -1,5 +1,5 @@
 @prefix cc: <http://creativecommons.org/ns#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
@@ -8,7 +8,7 @@
 <http://creativecommons.org/licenses/by/4.0/>
   a cc:License ;
   cc:requires cc:Notice, cc:Attribution ;
-  dcterms:title "Attribution 4.0 International"@en ;
+  dc:title "Attribution 4.0 International"@en ;
   cc:permits cc:Reproduction, cc:Distribution, cc:DerivativeWorks .
 
 <https://w3id.org/67375/TSO>
@@ -16,10 +16,10 @@
   cc:attributionName "Institut de l’information scientifique et technique (Inist) - CNRS/UAR76"@fr, "Institute for scientific and technical information (Inist) - CNRS/UAR76"@en, "Institute for scientific and technical information (Inist) - CNRS/UAR76"@es ;
   cc:attributionURL "http://www.inist.fr"^^xsd:string ;
   cc:license <http://creativecommons.org/licenses/by/4.0/> ;
-  dcterms:creator "Institut de l’information scientifique et technique (Inist) - CNRS/UAR76"^^xsd:string ;
-  dcterms:description "Ce thésaurus multilingue rassemble et structure, avec une polyhiérarchie, les concepts principaux de la science ouverte. Il a été initié en s'appuyant sur les glossaires existants et sur la taxonomie proposée dans le cadre du projet FOSTER. Il est enrichi grâce à une fouille des documents de référence du domaine."@fr, "Este tesauro multilingüe recoge y estructura, con una polijerarquía, los principales conceptos de la ciencia abierta. Se ha iniciado a partir de los glosarios existentes y de la taxonomía propuesta en el marco del proyecto FOSTER. Se enriquece gracias a la búsqueda de documentos de referencia en el ámbito."@es, "This multilingual thesaurus structures, with a polyhierarchy, the main concepts of open science. It was initiated by building on existing glossaries and on the taxonomy proposed in the framework of the FOSTER project. It is enriched through a text-mining task of reference documents in the field."@en ;
-  dcterms:identifier "https://dx.doi.org/10.13143/lotr.9297" ;
-  dcterms:title "Open science thesaurus"@en, "Thésaurus de la science ouverte"@fr, "Tesauro de la ciencia abierta"@es ;
+  dc:creator "Institut de l’information scientifique et technique (Inist) - CNRS/UAR76"^^xsd:string ;
+  dc:description "Ce thésaurus multilingue rassemble et structure, avec une polyhiérarchie, les concepts principaux de la science ouverte. Il a été initié en s'appuyant sur les glossaires existants et sur la taxonomie proposée dans le cadre du projet FOSTER. Il est enrichi grâce à une fouille des documents de référence du domaine."@fr, "Este tesauro multilingüe recoge y estructura, con una polijerarquía, los principales conceptos de la ciencia abierta. Se ha iniciado a partir de los glosarios existentes y de la taxonomía propuesta en el marco del proyecto FOSTER. Se enriquece gracias a la búsqueda de documentos de referencia en el ámbito."@es, "This multilingual thesaurus structures, with a polyhierarchy, the main concepts of open science. It was initiated by building on existing glossaries and on the taxonomy proposed in the framework of the FOSTER project. It is enriched through a text-mining task of reference documents in the field."@en ;
+  dc:identifier "https://dx.doi.org/10.13143/lotr.9297" ;
+  dc:title "Open science thesaurus"@en, "Thésaurus de la science ouverte"@fr, "Tesauro de la ciencia abierta"@es ;
   dc:created "2021-03-18"^^xsd:date ;
   dc:modified "2021-07-05"^^xsd:date ;
   dc:language <http://lexvo.org/id/iso639-3/eng>, <http://lexvo.org/id/iso639-3/fra>, <http://lexvo.org/id/iso639-3/spa> ;
